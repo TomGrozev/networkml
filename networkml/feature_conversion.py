@@ -5,10 +5,6 @@ from sklearn.preprocessing import LabelEncoder
 def label_encode(df):
     df_zeros = fill_missing(df)
 
-    # Get the categorical features of the data
-    # obj_df = df_zeros.select_dtypes(include=['object']).copy()
-    # print(obj_df.head(3))
-
     # Label Encoding
     df_label_enc = df_zeros
     number = LabelEncoder()
