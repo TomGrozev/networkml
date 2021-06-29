@@ -1,5 +1,7 @@
 # NetworkML
 
+This is just a fun little play with ML models for Network attack detection.
+
 ## Setup
 ```sh
 # Install dependencies
